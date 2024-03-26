@@ -30,23 +30,24 @@ main {
 
     header {
         height: 160px;
-        background-image: url("/image/lighthouselogo.jpg");
+        background-image: url("/images/lighthouselogo.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         grid-row: 1;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: flex-end;
     }
 
     #nav_main {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1;
     }
 
     nav {
         background-color: #91a1be;
         height: auto;
-        grid-row: 2;
+        grid-column: 2;
+        justify-content: left;
     }
 
     nav a {
@@ -68,11 +69,11 @@ main {
     }
 
     ul li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         background-color: #E6B5CB;
         height: 60px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
     }
 
     li a {
@@ -92,7 +93,7 @@ main {
     }
 
     #panoramic {
-        display: flex;
+        display: grid;
     }
 
     #second {
@@ -134,13 +135,13 @@ main {
 
     header {
         height: 120px;
-        background-image: url("/images/lighthouselogo.jpg");
+        background-image: url('/images/lighthouselogo.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         grid-row: 1;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: flex-end;
+        justify-items: end;
     }
 
     nav {
@@ -166,11 +167,12 @@ main {
     }
 
     ul li {
-        display: flex;
+        background-color: #E6B5CB;
+        display: grid;
+        align-items: center;
+        justify-items: center;
         margin: 20px;
         padding: 10px;
-        align-items: center;
-        background-color: #E6B5CB;
     }
 
     li a {
@@ -190,7 +192,7 @@ main {
     }
 
     #panoramic {
-        display: flex;
+        display: grid;
     }
 
     #second {
@@ -235,8 +237,9 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
         grid-row: 1;
-        display: flex;
+        display: grid;
         align-items: center;
+        justify-items: end;
     }
 
     nav {
@@ -260,9 +263,12 @@ main {
     }
 
     ul li {
+        background-color: #B4C7EA;
+        display: grid;
+        align-items: center;
+        justify-items: center;
         margin: 2px;
         padding: 10px;
-        background-color: #B4C7EA;
     }
 
     li a {
