@@ -69,8 +69,14 @@ li a{
 h3{
     color: #A0B0D9;
     font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
 }
-
+p{
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 20px;
+}
 #grid-main{
     grid-row: 2/3;
 }
@@ -142,9 +148,6 @@ footer{
         margin-top: 100%;
     }
 
-    #grid-aside img{
-        width: 100%;
-    }
 
     nav{
         height: 50px;
