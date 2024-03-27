@@ -18,7 +18,7 @@ body {
 #grid-header
 {
     grid-column: 1/4;
-    background-image: url("../media/lighthouselogo.jpg");
+    background-image: url("/images/lighthouselogo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 160px;
